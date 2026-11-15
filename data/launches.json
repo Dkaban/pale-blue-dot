@@ -1,6 +1,232 @@
 {
-  "updated": null,
+  "updated": "2026-11-15T15:51:37.484511+00:00",
   "source": "https://thespacedevs.com/llapi",
-  "upcoming": [],
-  "recent": []
+  "upcoming": [
+    {
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "net": "2026-11-15T17:11:30Z",
+      "provider": "United Launch Alliance",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "status": "Go for Launch",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/ef9850ad-1096-425b-9d27-f7bbd186e61a/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-317",
+      "net": "2026-11-18T03:14:00Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Go for Launch",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/76617033-4dc0-4448-b50c-e5b0d5a18539/?format=json"
+    },
+    {
+      "name": "Long March 2D | Unknown Payload",
+      "net": "2026-11-18T22:50:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+      "status": "Go for Launch",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/e0a11eb1-0bda-4872-b36b-140247fd5c60/?format=json"
+    },
+    {
+      "name": "Long March 8A | SatNet LEO Group TBD?",
+      "net": "2026-11-20T11:00:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Wenchang Space Launch Site, People's Republic of China",
+      "status": "To Be Confirmed",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a2975167-7c6f-4403-99e1-b40df17c8140/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | NROL-136",
+      "net": "2026-11-21T12:30:00Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Go for Launch",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/951a341f-236b-42fe-a667-4ab2fcf36eac/?format=json"
+    },
+    {
+      "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+      "net": "2026-11-23T00:00:00Z",
+      "provider": "Arianespace",
+      "location": "Guiana Space Centre, French Guiana",
+      "status": "To Be Determined",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/7bdc412b-c965-4517-a131-f57a01189803/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-266",
+      "net": "2026-11-23T16:04:00Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Go for Launch",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/460d9db7-eaf6-4cd9-b095-cff433534c09/?format=json"
+    },
+    {
+      "name": "Soyuz 2.1b | Progress MS-36 (97P)",
+      "net": "2026-11-24T05:03:00Z",
+      "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+      "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
+      "status": "To Be Confirmed",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/8dd5de11-831b-445f-86f0-bffefe0550d9/?format=json"
+    },
+    {
+      "name": "Long March 12 | SatNet LEO Group TBD?",
+      "net": "2026-11-24T07:00:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Wenchang Space Launch Site, People's Republic of China",
+      "status": "To Be Confirmed",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/5ce59e3a-c343-430f-ae4e-e608ba536754/?format=json"
+    },
+    {
+      "name": "Long March 2F/G | Shenzhou 24",
+      "net": "2026-11-25T00:00:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "status": "To Be Determined",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/c9605b67-8a53-4239-a8ae-577fe3b79799/?format=json"
+    },
+    {
+      "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
+      "net": "2026-11-26T20:00:00Z",
+      "provider": "Isar Aerospace",
+      "location": "Andøya Spaceport",
+      "status": "To Be Confirmed",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/dff42a2e-f047-48d7-b260-3888d3a4fe33/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+      "net": "2026-11-29T15:47:00Z",
+      "provider": "SpaceX",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "status": "Go for Launch",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/d74afbc7-0de5-491c-be05-4e9c31f736ac/?format=json"
+    },
+    {
+      "name": "Electron | StriX Launch 14",
+      "net": "2026-11-30T00:00:00Z",
+      "provider": "Rocket Lab",
+      "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "status": "To Be Determined",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/2093e4fc-ac8c-4296-a1b5-deececee6a72/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | NROL-195",
+      "net": "2026-11-30T00:00:00Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "To Be Determined",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49/?format=json"
+    }
+  ],
+  "recent": [
+    {
+      "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
+      "net": "2026-11-14T05:30:00Z",
+      "provider": "Rocket Lab",
+      "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/db3500ac-965b-4ad8-b417-cb8d8d005586/?format=json"
+    },
+    {
+      "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
+      "net": "2026-11-14T01:16:00Z",
+      "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+      "location": "Vostochny Cosmodrome, Siberia, Russian Federation",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/bff2fc91-eddd-4dfc-af26-ac0674cfab4d/?format=json"
+    },
+    {
+      "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
+      "net": "2026-11-13T22:47:36Z",
+      "provider": "SpaceX",
+      "location": "SpaceX Starbase, TX, USA",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/0f867f0c-5422-4d44-93b8-d7faaae7019b/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-627",
+      "net": "2026-11-12T04:36:30Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/6aa7b90b-e5ed-45d8-a52e-04fbf399d178/?format=json"
+    },
+    {
+      "name": "Long March 2D | CAS Pathfinder-1",
+      "net": "2026-11-11T11:41:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/d66590ab-b273-47ff-b85a-608b62851b4b/?format=json"
+    },
+    {
+      "name": "Long March 12 | SatNet LEO Group 29",
+      "net": "2026-11-08T20:24:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Wenchang Space Launch Site, People's Republic of China",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a2423132-f965-423f-8b03-6891b775dc54/?format=json"
+    },
+    {
+      "name": "Soyuz 2.1b/Fregat | Glonass-K1? (Kosmos 2621?)",
+      "net": "2026-11-07T13:22:00Z",
+      "provider": "Russian Space Forces",
+      "location": "Plesetsk Cosmodrome, Russian Federation",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/c476fea7-7814-4adb-91d1-98918bc2cc57/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-432",
+      "net": "2026-11-07T00:48:42Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/54d471e8-695c-4fa7-a3cf-dbd8b389e8ae/?format=json"
+    },
+    {
+      "name": "Ceres-2 | 4 satellites",
+      "net": "2026-11-06T23:37:00Z",
+      "provider": "Galactic Energy",
+      "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/e91d1da2-819b-4523-95bf-39ac7daa871d/?format=json"
+    },
+    {
+      "name": "Long March 2C | Yaogan 51-07 to 09",
+      "net": "2026-11-05T15:58:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Xichang Satellite Launch Center, People's Republic of China",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/711de6bc-f755-475b-a12f-ec5240da3a11/?format=json"
+    },
+    {
+      "name": "Kinetica 2 | SpaceSail Polar Group #17",
+      "net": "2026-11-03T00:15:00Z",
+      "provider": "CAS Space",
+      "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a/?format=json"
+    },
+    {
+      "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
+      "net": "2026-11-02T16:41:00Z",
+      "provider": "Rocket Lab",
+      "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+      "net": "2026-10-31T04:04:34Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/57ce0a39-d035-4f16-a418-bd6108f78199/?format=json"
+    },
+    {
+      "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+      "net": "2026-10-30T18:21:00Z",
+      "provider": "Indian Space Research Organization",
+      "location": "Satish Dhawan Space Centre, India",
+      "status": "Launch Successful",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/20d5676e-111b-40e3-8923-b218c3665ca2/?format=json"
+    }
+  ]
 }
