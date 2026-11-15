@@ -1,6 +1,57 @@
 {
-  "updated": null,
-  "year": null,
-  "source": "https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space",
-  "data": []
+  "updated": "2026-11-15T15:52:35.266888+00:00",
+  "year": 2025,
+  "source": "https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space.csv",
+  "data": [
+    {
+      "year": 2025,
+      "name": "United States",
+      "value": 3708
+    },
+    {
+      "year": 2025,
+      "name": "China",
+      "value": 374
+    },
+    {
+      "year": 2025,
+      "name": "Russia",
+      "value": 89
+    },
+    {
+      "year": 2025,
+      "name": "Italy",
+      "value": 30
+    },
+    {
+      "year": 2025,
+      "name": "Japan",
+      "value": 30
+    },
+    {
+      "year": 2025,
+      "name": "France",
+      "value": 25
+    },
+    {
+      "year": 2025,
+      "name": "South Korea",
+      "value": 22
+    },
+    {
+      "year": 2025,
+      "name": "Germany",
+      "value": 20
+    },
+    {
+      "year": 2025,
+      "name": "Turkey",
+      "value": 20
+    },
+    {
+      "year": 2025,
+      "name": "Finland",
+      "value": 17
+    }
+  ]
 }
