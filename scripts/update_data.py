@@ -87,6 +87,9 @@ def fetch_launches(category):
                     "provider": provider.get("name") or "Unknown operator",
                     "location": location.get("name") or pad.get("name") or "Launch site unavailable",
                     "status": (item.get("status") or {}).get("name") or "Schedule subject to change",
+                    "lat": pad.get("latitude") if pad.get("latitude") is not None else location.get("latitude"),
+                    "lon": pad.get("longitude") if pad.get("longitude") is not None else location.get("longitude"),
+                    "country": (pad.get("country") or location.get("country") or {}).get("name") or "Unknown",
                     "url": item.get("url") if str(item.get("url", "")).startswith("https://") else "https://thespacedevs.com/llapi",
                 })
             return results
@@ -110,9 +113,84 @@ def launches():
     save("launches.json", updated)
     print("Updated launch manifest:", len(updated["upcoming"]), "upcoming,", len(updated["recent"]), "recent")
 
+def year_launches():
+    """Collect completed/past launch records for the current UTC year with genuine pad locations.
+
+    Daily cached requests stay well within the unauthed Launch Library budget
+    (15/hour). A failed or incomplete update never overwrites a valid snapshot.
+    """
+    year = datetime.now(timezone.utc).year
+    base = "https://ll.thespacedevs.com/2.3.0/launches/previous/"
+    entries = []
+    total = None
+    limit = 100
+    # At most 12 pages, with no silent truncation if a year is larger.
+    for page in range(12):
+        query = urllib.parse.urlencode({
+            "year": year, "limit": limit, "offset": page * limit,
+            "ordering": "-net", "mode": "normal", "format": "json",
+        })
+        response = json.loads(get(base + "?" + query))
+        results = response.get("results")
+        if not isinstance(results, list):
+            raise ValueError("Launch API did not return a results list")
+        total = int(response.get("count", 0))
+        entries.extend(results)
+        if len(entries) >= total or not results:
+            break
+    if total is None or len(entries) < total:
+        raise RuntimeError(f"Incomplete {year} launch feed: fetched {len(entries)} of {total}; old snapshot retained")
+
+    launches = []
+    for item in entries:
+        pad = item.get("pad") or {}
+        location = pad.get("location") or {}
+        country = pad.get("country") or location.get("country") or {}
+        provider = item.get("launch_service_provider") or {}
+        status = item.get("status") or {}
+        raw_lat = pad.get("latitude")
+        raw_lon = pad.get("longitude")
+        if raw_lat is None:
+            raw_lat = location.get("latitude")
+        if raw_lon is None:
+            raw_lon = location.get("longitude")
+        try:
+            lat = float(raw_lat) if raw_lat is not None else None
+            lon = float(raw_lon) if raw_lon is not None else None
+            if lat is None or lon is None or not -90 <= lat <= 90 or not -180 <= lon <= 180:
+                lat, lon = None, None
+        except (TypeError, ValueError):
+            lat, lon = None, None
+        identifier = str(item.get("id") or "")
+        launches.append({
+            "id": identifier,
+            "name": item.get("name") or "Unnamed launch",
+            "net": item.get("net"),
+            "provider": provider.get("name") or "Unknown operator",
+            "status": status.get("name") or "Unknown outcome",
+            "site": location.get("name") or pad.get("name") or "Unknown launch site",
+            "pad": pad.get("name") or "Unknown pad",
+            "pad_id": pad.get("id"),
+            "country": country.get("name") or "Unknown country",
+            "lat": lat,
+            "lon": lon,
+            "url": "https://ll.thespacedevs.com/2.3.0/launches/" + urllib.parse.quote(identifier, safe="") + "/?format=json" if identifier else "https://thespacedevs.com/llapi",
+        })
+    valid = sum(1 for x in launches if x["lat"] is not None and x["lon"] is not None)
+    save("year-launches.json", {
+        "year": year,
+        "updated": datetime.now(timezone.utc).isoformat(),
+        "source": base,
+        "coverage": "Past launch records in Launch Library 2; orbital-focused default feed",
+        "total": len(launches),
+        "geocoded": valid,
+        "launches": launches
+    })
+    print(f"Updated {year} launch records: {len(launches)} total, {valid} with coordinates")
+
 if __name__ == "__main__":
     errors = []
-    for fn in (history, launches):
+    for fn in (history, launches, year_launches):
         try:
             fn()
         except Exception as exc:
