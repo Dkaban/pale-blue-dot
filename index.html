@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070d19">
+<meta name="description" content="Pale Blue Dot — a visual atlas tracking humanity's progress in space.">
+<title>Pale Blue Dot — Humanity, in Orbit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head><body>
+<div class="starfield" aria-hidden="true"></div>
+<div class="shell">
+<aside class="sidebar">
+<a class="brand" href="#overview"><span class="brand-symbol">✳</span><span>PALE BLUE <b>DOT</b><small>THE SPACE AGE, VISUALIZED</small></span></a>
+<div class="side-label">EXPLORE</div>
+<nav aria-label="Main navigation">
+<a class="nav-item active" href="#overview"><span>◈</span> Overview</a>
+<a class="nav-item" href="#activity"><span>▥</span> Space activity</a>
+<a class="nav-item" href="#launches"><span>◎</span> Launch manifest</a>
+<a class="nav-item" href="#milestones"><span>✦</span> Milestones</a>
+<a class="nav-item" href="#sources"><span>⌁</span> Sources & methods</a>
+</nav>
+<div class="sidebar-bottom"><div class="orbit-mini"><div class="mini-planet"></div><div class="mini-ring"></div><div class="mini-satellite"></div></div><p>“Look again at that dot.<br>That's here. That's home.”</p><span>— CARL SAGAN</span><a href="https://github.com/Dkaban/pale-blue-dot" target="_blank" rel="noopener">VIEW ON GITHUB ↗</a></div>
+</aside>
+<main id="overview">
+<header class="topbar"><span><i class="status-pulse"></i> A LIVING ATLAS OF SPACE EXPLORATION</span><div class="topbar-right"><span id="last-refresh">Data sync pending</span><a href="https://github.com/Dkaban/pale-blue-dot" target="_blank" rel="noopener" aria-label="GitHub repository" class="github-link">GITHUB ↗</a></div></header>
+<section class="hero">
+<div class="hero-copy"><div class="eyebrow"><span class="small-line"></span> FROM ONE SMALL WORLD</div><h1>How far<br>have we <em>come?</em></h1><p>A front-row seat to humanity's journey beyond Earth. Follow the numbers, the missions, and the people pushing us into the cosmos.</p><a class="primary-link" href="#activity">EXPLORE THE DATA <span>↗</span></a></div>
+<div class="earth-scene" aria-label="Illustrated Earth viewed from space"><div class="earth-glow"></div><div class="earth"></div><div class="orbit-ring"></div><div class="earth-label"><span class="label-dot"></span> 01 / HOME</div><div class="earth-meta">SOL SYSTEM / MILKY WAY<br>51° N · THIRD PLANET</div></div>
+<div class="hero-index">001 — AN OVERVIEW OF OUR PLACE IN SPACE</div>
+</section>
+<section class="metrics" aria-label="Dashboard summary">
+<div class="metric"><div class="metric-title">LATEST YEAR IN DATA <span>↗</span></div><div class="metric-value" id="stat-year">—</div><div class="metric-foot">Historical object-launch series</div></div>
+<div class="metric"><div class="metric-title">OBJECTS LAUNCHED <span>✳</span></div><div class="metric-value" id="stat-objects">—</div><div class="metric-foot" id="stat-objects-note">Waiting for source data</div></div>
+<div class="metric"><div class="metric-title">UPCOMING LAUNCHES <span>↗</span></div><div class="metric-value" id="stat-upcoming">—</div><div class="metric-foot">In available launch feed</div></div>
+<div class="metric"><div class="metric-title">PROGRAMS IN FOCUS <span>✦</span></div><div class="metric-value">08<span class="metric-plus">+</span></div><div class="metric-foot">Public and commercial</div></div>
+</section>
+<section class="section" id="activity"><div class="section-heading"><div><span class="kicker">01 / THE BIG PICTURE</span><h2>We're going <em>somewhere.</em></h2><p>See how the scale of space activity has changed over time.</p></div><span class="chapter">CHAPTER 01 — 04</span></div>
+<div class="chart-grid">
+<div class="panel panel-wide"><div class="panel-header"><div><div class="panel-kicker">HISTORICAL TREND</div><h3>Objects launched into space</h3><p>An object count, not a count of rocket launches.</p></div><div class="chart-actions"><label for="chart-range" class="sr-only">Chart time range</label><select id="chart-range"><option value="all">All years</option><option value="30">Last 30 years</option><option value="15">Last 15 years</option><option value="10" selected>Last 10 years</option></select></div></div><div id="history-chart" class="chart-container"><div class="chart-empty">Historical data awaiting first synchronization.</div></div><div class="chart-footer"><span><i class="legend-circle"></i> Objects launched annually</span><span>DATA: UN / OUR WORLD IN DATA</span></div></div>
+<div class="panel focus-panel"><div class="panel-header"><div><div class="panel-kicker">A NEW ERA</div><h3>Who's building our future?</h3></div></div><div class="program-list">
+<div><span class="program-icon">N</span><span><b>NASA</b><small>Public · United States</small></span><a href="https://www.nasa.gov/" target="_blank" rel="noopener" aria-label="NASA official site">↗</a></div>
+<div><span class="program-icon">S</span><span><b>SpaceX</b><small>Private · United States</small></span><a href="https://www.spacex.com/" target="_blank" rel="noopener" aria-label="SpaceX official site">↗</a></div>
+<div><span class="program-icon">E</span><span><b>ESA</b><small>Public · Europe</small></span><a href="https://www.esa.int/" target="_blank" rel="noopener" aria-label="ESA official site">↗</a></div>
+<div><span class="program-icon">R</span><span><b>Rocket Lab</b><small>Commercial · United States / New Zealand</small></span><a href="https://www.rocketlabusa.com/" target="_blank" rel="noopener" aria-label="Rocket Lab official site">↗</a></div>
+<div><span class="program-icon">I</span><span><b>ISRO</b><small>Public · India</small></span><a href="https://www.isro.gov.in/" target="_blank" rel="noopener" aria-label="ISRO official site">↗</a></div>
+<div><span class="program-icon">J</span><span><b>JAXA</b><small>Public · Japan</small></span><a href="https://global.jaxa.jp/" target="_blank" rel="noopener" aria-label="JAXA official site">↗</a></div>
+<div><span class="program-icon">B</span><span><b>Blue Origin</b><small>Private · United States</small></span><a href="https://www.blueorigin.com/" target="_blank" rel="noopener" aria-label="Blue Origin official site">↗</a></div>
+<div><span class="program-icon">C</span><span><b>CNSA</b><small>Public · China</small></span><a href="https://www.cnsa.gov.cn/english/" target="_blank" rel="noopener" aria-label="CNSA official site">↗</a></div>
+</div><p class="panel-note">Illustrative directory, not a ranking. <a href="#sources">About coverage ↗</a></p></div>
+</div></section>
+<section class="section" id="launches"><div class="section-heading"><div><span class="kicker">02 / NEXT ON THE HORIZON</span><h2>The launch <em>manifest.</em></h2><p>Upcoming missions from around the planet. Dates and vehicles may change.</p></div><span class="chapter">CHAPTER 02 — 04</span></div>
+<div class="launch-toolbar"><div class="tabs" role="group" aria-label="Launch listing"><button class="tab active" data-launch-view="upcoming">UPCOMING</button><button class="tab" data-launch-view="recent">RECENT</button></div><span class="data-pill" id="launch-status">● SYNC PENDING</span></div>
+<div class="launch-list" id="launch-list"><div class="launch-placeholder">Launch manifest awaiting its first data update. <a href="https://thespacedevs.com/llapi" target="_blank" rel="noopener">Explore Launch Library ↗</a></div></div>
+<p class="feed-disclaimer">Launch listings are a snapshot of the Space Devs community feed, not a complete census of all spaceflight.</p>
+</section>
+<section class="section" id="milestones"><div class="section-heading"><div><span class="kicker">03 / MOMENTS THAT CHANGED EVERYTHING</span><h2>A story of <em>firsts.</em></h2><p>From the first satellite to the new lunar era.</p></div><span class="chapter">CHAPTER 03 — 04</span></div>
+<div class="timeline">
+<div class="timeline-item"><span class="timeline-year">1957</span><span class="timeline-marker"></span><div><span class="timeline-tag">THE BEGINNING</span><h3>Sputnik 1</h3><p>The Soviet Union sends the first artificial satellite into Earth orbit, opening the Space Age.</p><a href="https://www.nasa.gov/history/sputnik/" target="_blank" rel="noopener">EXPLORE ↗</a></div></div>
+<div class="timeline-item"><span class="timeline-year">1961</span><span class="timeline-marker"></span><div><span class="timeline-tag">HUMAN SPACEFLIGHT</span><h3>Yuri Gagarin orbits Earth</h3><p>The first human reaches space and completes an orbit of our planet.</p><a href="https://www.nasa.gov/history/" target="_blank" rel="noopener">EXPLORE ↗</a></div></div>
+<div class="timeline-item"><span class="timeline-year">1969</span><span class="timeline-marker"></span><div><span class="timeline-tag">THE MOON</span><h3>Apollo 11</h3><p>Humans walk on another world for the first time.</p><a href="https://www.nasa.gov/mission/apollo-11/" target="_blank" rel="noopener">EXPLORE ↗</a></div></div>
+<div class="timeline-item"><span class="timeline-year">1998</span><span class="timeline-marker"></span><div><span class="timeline-tag">INTERNATIONAL COLLABORATION</span><h3>International Space Station begins</h3><p>Assembly of an enduring scientific outpost in low Earth orbit starts.</p><a href="https://www.nasa.gov/international-space-station/" target="_blank" rel="noopener">EXPLORE ↗</a></div></div>
+<div class="timeline-item"><span class="timeline-year">2015</span><span class="timeline-marker"></span><div><span class="timeline-tag">REUSABILITY</span><h3>Falcon 9 lands its first orbital-class booster</h3><p>SpaceX successfully lands a Falcon 9 first stage after an orbital launch.</p><a href="https://www.spacex.com/" target="_blank" rel="noopener">EXPLORE ↗</a></div></div>
+<div class="timeline-item"><span class="timeline-year">2022</span><span class="timeline-marker"></span><div><span class="timeline-tag">NEW EYES ON THE UNIVERSE</span><h3>Webb's first science images</h3><p>The James Webb Space Telescope begins transforming our view of the early universe.</p><a href="https://science.nasa.gov/mission/webb/" target="_blank" rel="noopener">EXPLORE ↗</a></div></div>
+<div class="timeline-item"><span class="timeline-year">2023</span><span class="timeline-marker"></span><div><span class="timeline-tag">LUNAR EXPLORATION</span><h3>Chandrayaan-3</h3><p>India becomes the fourth nation to achieve a soft landing on the Moon.</p><a href="https://www.isro.gov.in/Chandrayaan3_Details.html" target="_blank" rel="noopener">EXPLORE ↗</a></div></div>
+</div></section>
+<section class="section sources-section" id="sources"><div class="section-heading"><div><span class="kicker">04 / TRANSPARENCY FIRST</span><h2>Behind the <em>numbers.</em></h2><p>Great visualizations need clear provenance.</p></div><span class="chapter">CHAPTER 04 — 04</span></div>
+<div class="source-grid"><a href="https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space" target="_blank" rel="noopener"><span>01 / HISTORICAL SERIES</span><b>Our World in Data / UNOOSA</b><p>Annual count of objects launched into outer space. This is not the number of rocket launch attempts.</p><i>VIEW SOURCE ↗</i></a><a href="https://thespacedevs.com/llapi" target="_blank" rel="noopener"><span>02 / LAUNCH MANIFEST</span><b>The Space Devs</b><p>Community-maintained schedules and mission details. Upcoming launches are provisional.</p><i>VIEW SOURCE ↗</i></a><a href="https://github.com/Dkaban/pale-blue-dot" target="_blank" rel="noopener"><span>03 / OPEN PROJECT</span><b>GitHub repository</b><p>Public site code, cached datasets, and automated refresh logic.</p><i>VIEW CODE ↗</i></a></div><div class="method-note"><b>A note on interpretation</b><p>Objects launched, rocket launches, payloads, and satellites are separate measures. Countries can be assigned by operator, registry, launch site, or rocket provider; those methods are not interchangeable. Data coverage and update dates matter, so missing figures are shown as unavailable rather than invented.</p></div></section>
+<footer><span>✳ &nbsp; PALE BLUE DOT</span><span>A SMALL WORLD. A BIG STORY.</span><span>MADE TO KEEP LOOKING UP ↗</span></footer>
+</main></div>
+<script src="./app.js" defer></script></body></html>
