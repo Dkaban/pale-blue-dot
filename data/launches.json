@@ -1,22 +1,17 @@
 {
-  "updated": "2026-11-15T15:58:39.562139+00:00",
+  "updated": "2026-11-15T22:29:38.307250+00:00",
   "source": "https://thespacedevs.com/llapi",
   "upcoming": [
     {
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "net": "2026-11-15T17:11:30Z",
+      "net": "2026-11-15T17:40:30Z",
       "provider": "United Launch Alliance",
       "location": "Cape Canaveral SFS, FL, USA",
-      "status": "Go for Launch",
+      "status": "Launch Failure",
+      "lat": 28.58341025,
+      "lon": -80.58303644,
+      "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/ef9850ad-1096-425b-9d27-f7bbd186e61a/?format=json"
-    },
-    {
-      "name": "Falcon 9 Block 5 | USSF-317",
-      "net": "2026-11-18T03:14:00Z",
-      "provider": "SpaceX",
-      "location": "Vandenberg SFB, CA, USA",
-      "status": "Go for Launch",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/76617033-4dc0-4448-b50c-e5b0d5a18539/?format=json"
     },
     {
       "name": "Long March 2D | Unknown Payload",
@@ -24,7 +19,21 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "location": "Taiyuan Satellite Launch Center, People's Republic of China",
       "status": "Go for Launch",
+      "lat": 38.863128,
+      "lon": 111.589567,
+      "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/e0a11eb1-0bda-4872-b36b-140247fd5c60/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-317",
+      "net": "2026-11-19T03:00:00Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Go for Launch",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/76617033-4dc0-4448-b50c-e5b0d5a18539/?format=json"
     },
     {
       "name": "Long March 8A | SatNet LEO Group TBD?",
@@ -32,6 +41,9 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "location": "Wenchang Space Launch Site, People's Republic of China",
       "status": "To Be Confirmed",
+      "lat": 19.597275,
+      "lon": 110.930753,
+      "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/a2975167-7c6f-4403-99e1-b40df17c8140/?format=json"
     },
     {
@@ -40,6 +52,9 @@
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
       "status": "Go for Launch",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/951a341f-236b-42fe-a667-4ab2fcf36eac/?format=json"
     },
     {
@@ -48,6 +63,9 @@
       "provider": "Arianespace",
       "location": "Guiana Space Centre, French Guiana",
       "status": "To Be Determined",
+      "lat": 5.256319,
+      "lon": -52.786838,
+      "country": "French Guiana",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/7bdc412b-c965-4517-a131-f57a01189803/?format=json"
     },
     {
@@ -56,6 +74,9 @@
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
       "status": "Go for Launch",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/460d9db7-eaf6-4cd9-b095-cff433534c09/?format=json"
     },
     {
@@ -64,6 +85,9 @@
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
       "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
       "status": "To Be Confirmed",
+      "lat": 45.996034,
+      "lon": 63.564003,
+      "country": "Kazakhstan",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/8dd5de11-831b-445f-86f0-bffefe0550d9/?format=json"
     },
     {
@@ -72,6 +96,9 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "location": "Wenchang Space Launch Site, People's Republic of China",
       "status": "To Be Confirmed",
+      "lat": 19.59755,
+      "lon": 110.936481,
+      "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/5ce59e3a-c343-430f-ae4e-e608ba536754/?format=json"
     },
     {
@@ -80,6 +107,9 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "location": "Jiuquan Satellite Launch Center, People's Republic of China",
       "status": "To Be Determined",
+      "lat": 40.957893,
+      "lon": 100.290944,
+      "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/c9605b67-8a53-4239-a8ae-577fe3b79799/?format=json"
     },
     {
@@ -88,6 +118,9 @@
       "provider": "Isar Aerospace",
       "location": "Andøya Spaceport",
       "status": "To Be Confirmed",
+      "lat": 69.1084,
+      "lon": 15.5895,
+      "country": "Norway",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/dff42a2e-f047-48d7-b260-3888d3a4fe33/?format=json"
     },
     {
@@ -96,6 +129,9 @@
       "provider": "SpaceX",
       "location": "Cape Canaveral SFS, FL, USA",
       "status": "Go for Launch",
+      "lat": 28.56194122,
+      "lon": -80.57735736,
+      "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/d74afbc7-0de5-491c-be05-4e9c31f736ac/?format=json"
     },
     {
@@ -104,6 +140,9 @@
       "provider": "Rocket Lab",
       "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
       "status": "To Be Determined",
+      "lat": -39.260881,
+      "lon": 177.865826,
+      "country": "New Zealand",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/2093e4fc-ac8c-4296-a1b5-deececee6a72/?format=json"
     },
     {
@@ -112,16 +151,33 @@
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
       "status": "To Be Determined",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49/?format=json"
     }
   ],
   "recent": [
+    {
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "net": "2026-11-15T17:40:30Z",
+      "provider": "United Launch Alliance",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "status": "Launch Failure",
+      "lat": 28.58341025,
+      "lon": -80.58303644,
+      "country": "United States of America",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/ef9850ad-1096-425b-9d27-f7bbd186e61a/?format=json"
+    },
     {
       "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
       "net": "2026-11-14T05:30:00Z",
       "provider": "Rocket Lab",
       "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
       "status": "Launch Successful",
+      "lat": -39.262833,
+      "lon": 177.864469,
+      "country": "New Zealand",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/db3500ac-965b-4ad8-b417-cb8d8d005586/?format=json"
     },
     {
@@ -130,6 +186,9 @@
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
       "location": "Vostochny Cosmodrome, Siberia, Russian Federation",
       "status": "Launch Successful",
+      "lat": 51.884395,
+      "lon": 128.333932,
+      "country": "Russia",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/bff2fc91-eddd-4dfc-af26-ac0674cfab4d/?format=json"
     },
     {
@@ -138,6 +197,9 @@
       "provider": "SpaceX",
       "location": "SpaceX Starbase, TX, USA",
       "status": "Launch Successful",
+      "lat": 25.99677,
+      "lon": -97.15799,
+      "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/0f867f0c-5422-4d44-93b8-d7faaae7019b/?format=json"
     },
     {
@@ -146,6 +208,9 @@
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
       "status": "Launch Successful",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/6aa7b90b-e5ed-45d8-a52e-04fbf399d178/?format=json"
     },
     {
@@ -154,6 +219,9 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "location": "Jiuquan Satellite Launch Center, People's Republic of China",
       "status": "Launch Successful",
+      "lat": 40.960482,
+      "lon": 100.298059,
+      "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/d66590ab-b273-47ff-b85a-608b62851b4b/?format=json"
     },
     {
@@ -162,6 +230,9 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "location": "Wenchang Space Launch Site, People's Republic of China",
       "status": "Launch Successful",
+      "lat": 19.59755,
+      "lon": 110.936481,
+      "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/a2423132-f965-423f-8b03-6891b775dc54/?format=json"
     },
     {
@@ -170,6 +241,9 @@
       "provider": "Russian Space Forces",
       "location": "Plesetsk Cosmodrome, Russian Federation",
       "status": "Launch Successful",
+      "lat": 62.9273,
+      "lon": 40.45,
+      "country": "Russia",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/c476fea7-7814-4adb-91d1-98918bc2cc57/?format=json"
     },
     {
@@ -178,6 +252,9 @@
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
       "status": "Launch Successful",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/54d471e8-695c-4fa7-a3cf-dbd8b389e8ae/?format=json"
     },
     {
@@ -186,6 +263,9 @@
       "provider": "Galactic Energy",
       "location": "Jiuquan Satellite Launch Center, People's Republic of China",
       "status": "Launch Successful",
+      "lat": 40.969117,
+      "lon": 100.343333,
+      "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/e91d1da2-819b-4523-95bf-39ac7daa871d/?format=json"
     },
     {
@@ -194,6 +274,9 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "location": "Xichang Satellite Launch Center, People's Republic of China",
       "status": "Launch Successful",
+      "lat": 28.247059,
+      "lon": 102.029008,
+      "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/711de6bc-f755-475b-a12f-ec5240da3a11/?format=json"
     },
     {
@@ -202,6 +285,9 @@
       "provider": "CAS Space",
       "location": "Jiuquan Satellite Launch Center, People's Republic of China",
       "status": "Launch Successful",
+      "lat": 40.81748,
+      "lon": 100.21939,
+      "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a/?format=json"
     },
     {
@@ -210,6 +296,9 @@
       "provider": "Rocket Lab",
       "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
       "status": "Launch Successful",
+      "lat": -39.262833,
+      "lon": 177.864469,
+      "country": "New Zealand",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff/?format=json"
     },
     {
@@ -218,15 +307,10 @@
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
       "status": "Launch Successful",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/57ce0a39-d035-4f16-a418-bd6108f78199/?format=json"
-    },
-    {
-      "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-      "net": "2026-10-30T18:21:00Z",
-      "provider": "Indian Space Research Organization",
-      "location": "Satish Dhawan Space Centre, India",
-      "status": "Launch Successful",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/20d5676e-111b-40e3-8923-b218c3665ca2/?format=json"
     }
   ]
 }
