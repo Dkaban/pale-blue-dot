@@ -44,21 +44,27 @@ def history():
     if not values:
         raise ValueError("No value field in OWID CSV")
     series = []
+    country_rows = []
     for row in rows:
-        if row.get(entity_key, "").strip().lower() != "world":
-            continue
+        entity = row.get(entity_key, "").strip()
         try:
             year = int(row[year_key])
             value = float(row[values[0]])
             if value >= 0 and value != float("inf"):
-                series.append({"year": year, "value": round(value)})
+                if entity.lower() == "world":
+                    series.append({"year": year, "value": round(value)})
+                elif entity and entity not in ("Europe", "European Union", "Asia", "Africa", "Oceania", "North America", "South America"):
+                    country_rows.append({"year": year, "name": entity, "value": round(value)})
         except (TypeError, ValueError):
             continue
     if len(series) < 5:
         raise ValueError("World-level series missing/too short; refusing to fabricate totals")
     series.sort(key=lambda x: x["year"])
     save("history.json", {"updated": datetime.now(timezone.utc).isoformat(), "source": url, "metric": "objects_launched", "data": series})
-    print("Updated historical data:", len(series), "annual observations")
+    latest = series[-1]["year"]
+    top = sorted((row for row in country_rows if row["year"] == latest), key=lambda r: r["value"], reverse=True)[:10]
+    save("countries.json", {"updated": datetime.now(timezone.utc).isoformat(), "year": latest, "source": url, "data": top})
+    print("Updated historical data:", len(series), "annual observations; top countries:", len(top))
 
 def fetch_launches(category):
     routes = [
