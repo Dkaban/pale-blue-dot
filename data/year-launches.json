@@ -1,11 +1,25 @@
 {
   "year": 2026,
-  "updated": "2026-11-18T16:27:12.257011+00:00",
+  "updated": "2026-11-19T16:33:58.097213+00:00",
   "source": "https://ll.thespacedevs.com/2.3.0/launches/previous/",
   "coverage": "Past launch records in Launch Library 2; orbital-focused default feed",
-  "total": 273,
-  "geocoded": 273,
+  "total": 274,
+  "geocoded": 274,
   "launches": [
+    {
+      "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
+      "name": "Long March 2D | Shijian 24",
+      "net": "2026-11-18T22:51:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "status": "Launch Successful",
+      "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+      "pad": "Launch Complex 9",
+      "pad_id": 25,
+      "country": "China",
+      "lat": 38.863128,
+      "lon": 111.589567,
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/e0a11eb1-0bda-4872-b36b-140247fd5c60/?format=json"
+    },
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
