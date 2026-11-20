@@ -1,11 +1,25 @@
 {
   "year": 2026,
-  "updated": "2026-11-19T16:33:58.097213+00:00",
+  "updated": "2026-11-20T16:08:59.073754+00:00",
   "source": "https://ll.thespacedevs.com/2.3.0/launches/previous/",
   "coverage": "Past launch records in Launch Library 2; orbital-focused default feed",
-  "total": 274,
-  "geocoded": 274,
+  "total": 275,
+  "geocoded": 275,
   "launches": [
+    {
+      "id": "a2975167-7c6f-4403-99e1-b40df17c8140",
+      "name": "Long March 8A | SatNet LEO Group TBD?",
+      "net": "2026-11-20T11:59:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "status": "Launch in Flight",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
+      "pad": "Commercial LC-1",
+      "pad_id": 218,
+      "country": "China",
+      "lat": 19.597275,
+      "lon": 110.930753,
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a2975167-7c6f-4403-99e1-b40df17c8140/?format=json"
+    },
     {
       "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
       "name": "Long March 2D | Shijian 24",

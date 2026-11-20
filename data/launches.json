@@ -1,21 +1,21 @@
 {
-  "updated": "2026-11-19T16:33:43.531004+00:00",
+  "updated": "2026-11-20T16:08:51.141310+00:00",
   "source": "https://thespacedevs.com/llapi",
   "upcoming": [
     {
-      "name": "Long March 2D | Shijian 24",
-      "net": "2026-11-18T22:51:00Z",
+      "name": "Long March 8A | SatNet LEO Group TBD?",
+      "net": "2026-11-20T11:59:00Z",
       "provider": "China Aerospace Science and Technology Corporation",
-      "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-      "status": "Launch Successful",
-      "lat": 38.863128,
-      "lon": 111.589567,
+      "location": "Wenchang Space Launch Site, People's Republic of China",
+      "status": "Launch in Flight",
+      "lat": 19.597275,
+      "lon": 110.930753,
       "country": "China",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/e0a11eb1-0bda-4872-b36b-140247fd5c60/?format=json"
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a2975167-7c6f-4403-99e1-b40df17c8140/?format=json"
     },
     {
       "name": "Falcon 9 Block 5 | USSF-317",
-      "net": "2026-11-20T04:32:55Z",
+      "net": "2026-11-21T02:32:00Z",
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
       "status": "Go for Launch",
@@ -23,17 +23,6 @@
       "lon": -120.611,
       "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/76617033-4dc0-4448-b50c-e5b0d5a18539/?format=json"
-    },
-    {
-      "name": "Long March 8A | SatNet LEO Group TBD?",
-      "net": "2026-11-20T11:59:00Z",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "location": "Wenchang Space Launch Site, People's Republic of China",
-      "status": "Go for Launch",
-      "lat": 19.597275,
-      "lon": 110.930753,
-      "country": "China",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/a2975167-7c6f-4403-99e1-b40df17c8140/?format=json"
     },
     {
       "name": "Long March 6C | Unknown Payload",
@@ -91,26 +80,26 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/8dd5de11-831b-445f-86f0-bffefe0550d9/?format=json"
     },
     {
-      "name": "Long March 12 | SatNet LEO Group TBD?",
-      "net": "2026-11-24T07:00:00Z",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "location": "Wenchang Space Launch Site, People's Republic of China",
-      "status": "To Be Confirmed",
-      "lat": 19.59755,
-      "lon": 110.936481,
-      "country": "China",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/5ce59e3a-c343-430f-ae4e-e608ba536754/?format=json"
-    },
-    {
       "name": "Long March 2F/G | Shenzhou 24",
-      "net": "2026-11-25T00:00:00Z",
+      "net": "2026-11-25T00:18:00Z",
       "provider": "China Aerospace Science and Technology Corporation",
       "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "status": "To Be Determined",
+      "status": "Go for Launch",
       "lat": 40.957893,
       "lon": 100.290944,
       "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/c9605b67-8a53-4239-a8ae-577fe3b79799/?format=json"
+    },
+    {
+      "name": "Long March 2D | Unknown Payload",
+      "net": "2026-11-26T09:35:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Xichang Satellite Launch Center, People's Republic of China",
+      "status": "Go for Launch",
+      "lat": 28.247059,
+      "lon": 102.029008,
+      "country": "China",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4/?format=json"
     },
     {
       "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
@@ -124,6 +113,17 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/dff42a2e-f047-48d7-b260-3888d3a4fe33/?format=json"
     },
     {
+      "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
+      "net": "2026-11-27T00:05:00Z",
+      "provider": "Rocket Lab",
+      "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "status": "Go for Launch",
+      "lat": -39.260881,
+      "lon": 177.865826,
+      "country": "New Zealand",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/2093e4fc-ac8c-4296-a1b5-deececee6a72/?format=json"
+    },
+    {
       "name": "Falcon 9 Block 5 | USSF-380",
       "net": "2026-11-28T04:53:00Z",
       "provider": "SpaceX",
@@ -135,6 +135,17 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/b0d27def-0a88-44c3-a947-1fd5b8503e2c/?format=json"
     },
     {
+      "name": "Kinetica 1 | Unknown Payload",
+      "net": "2026-11-29T01:00:00Z",
+      "provider": "CAS Space",
+      "location": "Haiyang Oriental Spaceport",
+      "status": "To Be Confirmed",
+      "lat": 21.366667,
+      "lon": 112.116667,
+      "country": "China",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/8b46d360-6b3b-423f-9036-d5568e485624/?format=json"
+    },
+    {
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
       "net": "2026-11-29T15:47:00Z",
       "provider": "SpaceX",
@@ -144,20 +155,20 @@
       "lon": -80.57735736,
       "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/d74afbc7-0de5-491c-be05-4e9c31f736ac/?format=json"
-    },
-    {
-      "name": "Electron | StriX Launch 14",
-      "net": "2026-11-30T00:00:00Z",
-      "provider": "Rocket Lab",
-      "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "status": "To Be Determined",
-      "lat": -39.260881,
-      "lon": 177.865826,
-      "country": "New Zealand",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/2093e4fc-ac8c-4296-a1b5-deececee6a72/?format=json"
     }
   ],
   "recent": [
+    {
+      "name": "Long March 8A | SatNet LEO Group TBD?",
+      "net": "2026-11-20T11:59:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Wenchang Space Launch Site, People's Republic of China",
+      "status": "Launch in Flight",
+      "lat": 19.597275,
+      "lon": 110.930753,
+      "country": "China",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a2975167-7c6f-4403-99e1-b40df17c8140/?format=json"
+    },
     {
       "name": "Long March 2D | Shijian 24",
       "net": "2026-11-18T22:51:00Z",
@@ -300,17 +311,6 @@
       "lon": 100.21939,
       "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a/?format=json"
-    },
-    {
-      "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
-      "net": "2026-11-02T16:41:00Z",
-      "provider": "Rocket Lab",
-      "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "status": "Launch Successful",
-      "lat": -39.262833,
-      "lon": 177.864469,
-      "country": "New Zealand",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff/?format=json"
     }
   ]
 }
