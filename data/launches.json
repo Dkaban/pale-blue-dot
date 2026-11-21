@@ -1,43 +1,21 @@
 {
-  "updated": "2026-11-20T16:08:51.141310+00:00",
+  "updated": "2026-11-21T15:21:59.244505+00:00",
   "source": "https://thespacedevs.com/llapi",
   "upcoming": [
     {
-      "name": "Long March 8A | SatNet LEO Group TBD?",
-      "net": "2026-11-20T11:59:00Z",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "location": "Wenchang Space Launch Site, People's Republic of China",
-      "status": "Launch in Flight",
-      "lat": 19.597275,
-      "lon": 110.930753,
-      "country": "China",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/a2975167-7c6f-4403-99e1-b40df17c8140/?format=json"
-    },
-    {
       "name": "Falcon 9 Block 5 | USSF-317",
-      "net": "2026-11-21T02:32:00Z",
+      "net": "2026-11-21T04:20:35Z",
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
-      "status": "Go for Launch",
+      "status": "Launch Successful",
       "lat": 34.632,
       "lon": -120.611,
       "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/76617033-4dc0-4448-b50c-e5b0d5a18539/?format=json"
     },
     {
-      "name": "Long March 6C | Unknown Payload",
-      "net": "2026-11-21T03:50:00Z",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-      "status": "Go for Launch",
-      "lat": 38.8583,
-      "lon": 111.5802,
-      "country": "China",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/13270554-4bdb-42ae-916f-1bb54492204f/?format=json"
-    },
-    {
       "name": "Falcon 9 Block 5 | NROL-136",
-      "net": "2026-11-21T12:30:00Z",
+      "net": "2026-11-22T12:16:00Z",
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
       "status": "Go for Launch",
@@ -58,17 +36,6 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/7bdc412b-c965-4517-a131-f57a01189803/?format=json"
     },
     {
-      "name": "Falcon 9 Block 5 | USSF-266",
-      "net": "2026-11-23T16:04:00Z",
-      "provider": "SpaceX",
-      "location": "Vandenberg SFB, CA, USA",
-      "status": "Go for Launch",
-      "lat": 34.632,
-      "lon": -120.611,
-      "country": "United States of America",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/460d9db7-eaf6-4cd9-b095-cff433534c09/?format=json"
-    },
-    {
       "name": "Soyuz 2.1b | Progress MS-36 (97P)",
       "net": "2026-11-24T05:03:00Z",
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
@@ -78,6 +45,17 @@
       "lon": 63.564003,
       "country": "Kazakhstan",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/8dd5de11-831b-445f-86f0-bffefe0550d9/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-266",
+      "net": "2026-11-24T15:55:00Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Go for Launch",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/460d9db7-eaf6-4cd9-b095-cff433534c09/?format=json"
     },
     {
       "name": "Long March 2F/G | Shenzhou 24",
@@ -124,15 +102,15 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/2093e4fc-ac8c-4296-a1b5-deececee6a72/?format=json"
     },
     {
-      "name": "Falcon 9 Block 5 | USSF-380",
-      "net": "2026-11-28T04:53:00Z",
-      "provider": "SpaceX",
-      "location": "Vandenberg SFB, CA, USA",
+      "name": "Long March 6A | Unknown Payload",
+      "net": "2026-11-27T13:00:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Taiyuan Satellite Launch Center, People's Republic of China",
       "status": "Go for Launch",
-      "lat": 34.632,
-      "lon": -120.611,
-      "country": "United States of America",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/b0d27def-0a88-44c3-a947-1fd5b8503e2c/?format=json"
+      "lat": 38.8583,
+      "lon": 111.5802,
+      "country": "China",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a6421db3-7c8a-4cf7-a659-cec195140f7f/?format=json"
     },
     {
       "name": "Kinetica 1 | Unknown Payload",
@@ -146,8 +124,30 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/8b46d360-6b3b-423f-9036-d5568e485624/?format=json"
     },
     {
+      "name": "Long March 6C | Unknown Payload",
+      "net": "2026-11-29T03:50:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+      "status": "Go for Launch",
+      "lat": 38.8583,
+      "lon": 111.5802,
+      "country": "China",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/13270554-4bdb-42ae-916f-1bb54492204f/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-380",
+      "net": "2026-11-29T04:39:00Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Go for Launch",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/b0d27def-0a88-44c3-a947-1fd5b8503e2c/?format=json"
+    },
+    {
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "net": "2026-11-29T15:47:00Z",
+      "net": "2026-11-29T15:50:00Z",
       "provider": "SpaceX",
       "location": "Cape Canaveral SFS, FL, USA",
       "status": "Go for Launch",
@@ -159,11 +159,22 @@
   ],
   "recent": [
     {
-      "name": "Long March 8A | SatNet LEO Group TBD?",
+      "name": "Falcon 9 Block 5 | USSF-317",
+      "net": "2026-11-21T04:20:35Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Launch Successful",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/76617033-4dc0-4448-b50c-e5b0d5a18539/?format=json"
+    },
+    {
+      "name": "Long March 8A | SatNet LEO Group 30",
       "net": "2026-11-20T11:59:00Z",
       "provider": "China Aerospace Science and Technology Corporation",
       "location": "Wenchang Space Launch Site, People's Republic of China",
-      "status": "Launch in Flight",
+      "status": "Launch Successful",
       "lat": 19.597275,
       "lon": 110.930753,
       "country": "China",
@@ -300,17 +311,6 @@
       "lon": 102.029008,
       "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/711de6bc-f755-475b-a12f-ec5240da3a11/?format=json"
-    },
-    {
-      "name": "Kinetica 2 | SpaceSail Polar Group #17",
-      "net": "2026-11-03T00:15:00Z",
-      "provider": "CAS Space",
-      "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "status": "Launch Successful",
-      "lat": 40.81748,
-      "lon": 100.21939,
-      "country": "China",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a/?format=json"
     }
   ]
 }
