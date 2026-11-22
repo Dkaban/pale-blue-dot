@@ -1,24 +1,13 @@
 {
-  "updated": "2026-11-21T15:21:59.244505+00:00",
+  "updated": "2026-11-22T15:16:53.194733+00:00",
   "source": "https://thespacedevs.com/llapi",
   "upcoming": [
     {
-      "name": "Falcon 9 Block 5 | USSF-317",
-      "net": "2026-11-21T04:20:35Z",
+      "name": "Falcon 9 Block 5 | NROL-136",
+      "net": "2026-11-22T12:23:56Z",
       "provider": "SpaceX",
       "location": "Vandenberg SFB, CA, USA",
       "status": "Launch Successful",
-      "lat": 34.632,
-      "lon": -120.611,
-      "country": "United States of America",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/76617033-4dc0-4448-b50c-e5b0d5a18539/?format=json"
-    },
-    {
-      "name": "Falcon 9 Block 5 | NROL-136",
-      "net": "2026-11-22T12:16:00Z",
-      "provider": "SpaceX",
-      "location": "Vandenberg SFB, CA, USA",
-      "status": "Go for Launch",
       "lat": 34.632,
       "lon": -120.611,
       "country": "United States of America",
@@ -78,17 +67,6 @@
       "lon": 102.029008,
       "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4/?format=json"
-    },
-    {
-      "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
-      "net": "2026-11-26T20:00:00Z",
-      "provider": "Isar Aerospace",
-      "location": "Andøya Spaceport",
-      "status": "To Be Confirmed",
-      "lat": 69.1084,
-      "lon": 15.5895,
-      "country": "Norway",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/dff42a2e-f047-48d7-b260-3888d3a4fe33/?format=json"
     },
     {
       "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
@@ -155,9 +133,42 @@
       "lon": -80.57735736,
       "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/d74afbc7-0de5-491c-be05-4e9c31f736ac/?format=json"
+    },
+    {
+      "name": "Kuaizhou 11 | Unknown Payload",
+      "net": "2026-11-30T00:00:00Z",
+      "provider": "ExPace",
+      "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "status": "To Be Determined",
+      "lat": 40.969117,
+      "lon": 100.343333,
+      "country": "China",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/e2523821-9760-4cb4-ad1f-7ce2e30419bd/?format=json"
+    },
+    {
+      "name": "Mir | Demo Flight",
+      "net": "2026-11-30T00:00:00Z",
+      "provider": "Agency for Defense Development",
+      "location": "Sea Launch",
+      "status": "To Be Determined",
+      "lat": 33.216667,
+      "lon": 126.366667,
+      "country": "South Korea",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json"
     }
   ],
   "recent": [
+    {
+      "name": "Falcon 9 Block 5 | NROL-136",
+      "net": "2026-11-22T12:23:56Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "Launch Successful",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/951a341f-236b-42fe-a667-4ab2fcf36eac/?format=json"
+    },
     {
       "name": "Falcon 9 Block 5 | USSF-317",
       "net": "2026-11-21T04:20:35Z",
@@ -300,17 +311,6 @@
       "lon": 100.343333,
       "country": "China",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/e91d1da2-819b-4523-95bf-39ac7daa871d/?format=json"
-    },
-    {
-      "name": "Long March 2C | Yaogan 51-07 to 09",
-      "net": "2026-11-05T15:58:00Z",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "location": "Xichang Satellite Launch Center, People's Republic of China",
-      "status": "Launch Successful",
-      "lat": 28.247059,
-      "lon": 102.029008,
-      "country": "China",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/711de6bc-f755-475b-a12f-ec5240da3a11/?format=json"
     }
   ]
 }
