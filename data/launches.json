@@ -1,32 +1,10 @@
 {
-  "updated": "2026-11-22T15:16:53.194733+00:00",
+  "updated": "2026-11-23T19:14:06.234625+00:00",
   "source": "https://thespacedevs.com/llapi",
   "upcoming": [
     {
-      "name": "Falcon 9 Block 5 | NROL-136",
-      "net": "2026-11-22T12:23:56Z",
-      "provider": "SpaceX",
-      "location": "Vandenberg SFB, CA, USA",
-      "status": "Launch Successful",
-      "lat": 34.632,
-      "lon": -120.611,
-      "country": "United States of America",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/951a341f-236b-42fe-a667-4ab2fcf36eac/?format=json"
-    },
-    {
-      "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-      "net": "2026-11-23T11:09:00Z",
-      "provider": "Arianespace",
-      "location": "Guiana Space Centre, French Guiana",
-      "status": "Go for Launch",
-      "lat": 5.256319,
-      "lon": -52.786838,
-      "country": "French Guiana",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/7bdc412b-c965-4517-a131-f57a01189803/?format=json"
-    },
-    {
       "name": "Soyuz 2.1b | Progress MS-36 (97P)",
-      "net": "2026-11-24T05:03:00Z",
+      "net": "2026-11-24T10:13:00Z",
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
       "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
       "status": "To Be Confirmed",
@@ -34,6 +12,17 @@
       "lon": 63.564003,
       "country": "Kazakhstan",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/8dd5de11-831b-445f-86f0-bffefe0550d9/?format=json"
+    },
+    {
+      "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+      "net": "2026-11-24T10:45:00Z",
+      "provider": "Arianespace",
+      "location": "Guiana Space Centre, French Guiana",
+      "status": "Go for Launch",
+      "lat": 5.256319,
+      "lon": -52.786838,
+      "country": "French Guiana",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/7bdc412b-c965-4517-a131-f57a01189803/?format=json"
     },
     {
       "name": "Falcon 9 Block 5 | USSF-266",
@@ -91,17 +80,6 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/a6421db3-7c8a-4cf7-a659-cec195140f7f/?format=json"
     },
     {
-      "name": "Kinetica 1 | Unknown Payload",
-      "net": "2026-11-29T01:00:00Z",
-      "provider": "CAS Space",
-      "location": "Haiyang Oriental Spaceport",
-      "status": "To Be Confirmed",
-      "lat": 21.366667,
-      "lon": 112.116667,
-      "country": "China",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/8b46d360-6b3b-423f-9036-d5568e485624/?format=json"
-    },
-    {
       "name": "Long March 6C | Unknown Payload",
       "net": "2026-11-29T03:50:00Z",
       "provider": "China Aerospace Science and Technology Corporation",
@@ -155,6 +133,28 @@
       "lon": 126.366667,
       "country": "South Korea",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json"
+    },
+    {
+      "name": "Kinetica 1 | Unknown Payload",
+      "net": "2026-12-01T01:45:00Z",
+      "provider": "CAS Space",
+      "location": "Haiyang Oriental Spaceport",
+      "status": "Go for Launch",
+      "lat": 21.133333,
+      "lon": 112.683333,
+      "country": "China",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/8b46d360-6b3b-423f-9036-d5568e485624/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | NROL-132",
+      "net": "2026-12-02T20:30:00Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "To Be Confirmed",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/5591cfa3-6336-41ab-a37a-7c57aa28ab5f/?format=json"
     }
   ],
   "recent": [
