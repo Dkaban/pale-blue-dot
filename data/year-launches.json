@@ -1,11 +1,25 @@
 {
   "year": 2026,
-  "updated": "2026-11-24T18:53:32.565364+00:00",
+  "updated": "2026-11-25T17:58:15.830537+00:00",
   "source": "https://ll.thespacedevs.com/2.3.0/launches/previous/",
   "coverage": "Past launch records in Launch Library 2; orbital-focused default feed",
-  "total": 280,
-  "geocoded": 280,
+  "total": 281,
+  "geocoded": 281,
   "launches": [
+    {
+      "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
+      "name": "Long March 2F/G | Shenzhou 24",
+      "net": "2026-11-25T00:18:52Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "status": "Launch Successful",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "pad": "Launch Area 91 (SLS-1 / 921)",
+      "pad_id": 37,
+      "country": "China",
+      "lat": 40.957893,
+      "lon": 100.290944,
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/c9605b67-8a53-4239-a8ae-577fe3b79799/?format=json"
+    },
     {
       "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
       "name": "Falcon 9 Block 5 | USSF-266",
