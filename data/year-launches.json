@@ -1,11 +1,25 @@
 {
   "year": 2026,
-  "updated": "2026-11-25T17:58:15.830537+00:00",
+  "updated": "2026-11-26T17:43:01.277006+00:00",
   "source": "https://ll.thespacedevs.com/2.3.0/launches/previous/",
   "coverage": "Past launch records in Launch Library 2; orbital-focused default feed",
-  "total": 281,
-  "geocoded": 281,
+  "total": 282,
+  "geocoded": 282,
   "launches": [
+    {
+      "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
+      "name": "Long March 2D | Yaogan 49 Group 01",
+      "net": "2026-11-26T09:38:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "status": "Launch Successful",
+      "site": "Xichang Satellite Launch Center, People's Republic of China",
+      "pad": "Launch Complex 3 (LC-3/LA-1)",
+      "pad_id": 66,
+      "country": "China",
+      "lat": 28.247059,
+      "lon": 102.029008,
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4/?format=json"
+    },
     {
       "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
       "name": "Long March 2F/G | Shenzhou 24",
