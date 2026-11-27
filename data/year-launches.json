@@ -1,11 +1,39 @@
 {
   "year": 2026,
-  "updated": "2026-11-26T17:43:01.277006+00:00",
+  "updated": "2026-11-27T17:27:48.129920+00:00",
   "source": "https://ll.thespacedevs.com/2.3.0/launches/previous/",
   "coverage": "Past launch records in Launch Library 2; orbital-focused default feed",
-  "total": 282,
-  "geocoded": 282,
+  "total": 284,
+  "geocoded": 284,
   "launches": [
+    {
+      "id": "a6421db3-7c8a-4cf7-a659-cec195140f7f",
+      "name": "Long March 6A | Unknown Payload",
+      "net": "2026-11-27T13:00:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "status": "Go for Launch",
+      "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+      "pad": "Launch Complex 9A",
+      "pad_id": 200,
+      "country": "China",
+      "lat": 38.8583,
+      "lon": 111.5802,
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a6421db3-7c8a-4cf7-a659-cec195140f7f/?format=json"
+    },
+    {
+      "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
+      "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
+      "net": "2026-11-27T00:15:00Z",
+      "provider": "Rocket Lab",
+      "status": "Launch Successful",
+      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "pad": "Rocket Lab Launch Complex 1B",
+      "pad_id": 185,
+      "country": "New Zealand",
+      "lat": -39.262833,
+      "lon": 177.864469,
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/2093e4fc-ac8c-4296-a1b5-deececee6a72/?format=json"
+    },
     {
       "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
       "name": "Long March 2D | Yaogan 49 Group 01",

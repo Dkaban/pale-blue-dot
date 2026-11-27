@@ -1,24 +1,13 @@
 {
-  "updated": "2026-11-26T17:42:48.615898+00:00",
+  "updated": "2026-11-27T17:27:39.572440+00:00",
   "source": "https://thespacedevs.com/llapi",
   "upcoming": [
     {
-      "name": "Long March 2D | Yaogan 49 Group 01",
-      "net": "2026-11-26T09:38:00Z",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "location": "Xichang Satellite Launch Center, People's Republic of China",
-      "status": "Launch Successful",
-      "lat": 28.247059,
-      "lon": 102.029008,
-      "country": "China",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4/?format=json"
-    },
-    {
       "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
-      "net": "2026-11-27T00:05:00Z",
+      "net": "2026-11-27T00:15:00Z",
       "provider": "Rocket Lab",
       "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "status": "Go for Launch",
+      "status": "Launch Successful",
       "lat": -39.262833,
       "lon": 177.864469,
       "country": "New Zealand",
@@ -69,17 +58,6 @@
       "url": "https://ll.thespacedevs.com/2.3.0/launches/d74afbc7-0de5-491c-be05-4e9c31f736ac/?format=json"
     },
     {
-      "name": "Mir | Demo Flight",
-      "net": "2026-11-30T00:00:00Z",
-      "provider": "Agency for Defense Development",
-      "location": "Sea Launch",
-      "status": "To Be Determined",
-      "lat": 33.216667,
-      "lon": 126.366667,
-      "country": "South Korea",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json"
-    },
-    {
       "name": "Kinetica 1 | Unknown Payload",
       "net": "2026-12-01T01:45:00Z",
       "provider": "CAS Space",
@@ -92,10 +70,10 @@
     },
     {
       "name": "Kuaizhou 11 | Unknown Payload",
-      "net": "2026-12-01T08:00:00Z",
+      "net": "2026-12-02T11:55:00Z",
       "provider": "ExPace",
       "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "status": "To Be Confirmed",
+      "status": "Go for Launch",
       "lat": 40.969117,
       "lon": 100.343333,
       "country": "China",
@@ -155,9 +133,53 @@
       "lon": -80.528,
       "country": "United States of America",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/9b9db235-8ffb-4569-b09b-0e852ad231a0/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
+      "net": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "location": "Cape Canaveral SFS, FL, USA",
+      "status": "To Be Determined",
+      "lat": 28.56194122,
+      "lon": -80.57735736,
+      "country": "United States of America",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/e61d353c-db55-4a57-8184-0fab187231e6/?format=json"
+    },
+    {
+      "name": "Falcon 9 Block 5 | NROL-195",
+      "net": "2026-12-31T00:00:00Z",
+      "provider": "SpaceX",
+      "location": "Vandenberg SFB, CA, USA",
+      "status": "To Be Determined",
+      "lat": 34.632,
+      "lon": -120.611,
+      "country": "United States of America",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49/?format=json"
     }
   ],
   "recent": [
+    {
+      "name": "Long March 6A | Unknown Payload",
+      "net": "2026-11-27T13:00:00Z",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+      "status": "Go for Launch",
+      "lat": 38.8583,
+      "lon": 111.5802,
+      "country": "China",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/a6421db3-7c8a-4cf7-a659-cec195140f7f/?format=json"
+    },
+    {
+      "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
+      "net": "2026-11-27T00:15:00Z",
+      "provider": "Rocket Lab",
+      "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "status": "Launch Successful",
+      "lat": -39.262833,
+      "lon": 177.864469,
+      "country": "New Zealand",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/2093e4fc-ac8c-4296-a1b5-deececee6a72/?format=json"
+    },
     {
       "name": "Long March 2D | Yaogan 49 Group 01",
       "net": "2026-11-26T09:38:00Z",
@@ -289,28 +311,6 @@
       "lon": 128.333932,
       "country": "Russia",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/bff2fc91-eddd-4dfc-af26-ac0674cfab4d/?format=json"
-    },
-    {
-      "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
-      "net": "2026-11-13T22:47:36Z",
-      "provider": "SpaceX",
-      "location": "SpaceX Starbase, TX, USA",
-      "status": "Launch Successful",
-      "lat": 25.99677,
-      "lon": -97.15799,
-      "country": "United States of America",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/0f867f0c-5422-4d44-93b8-d7faaae7019b/?format=json"
-    },
-    {
-      "name": "Falcon 9 Block 5 | USSF-627",
-      "net": "2026-11-12T04:36:30Z",
-      "provider": "SpaceX",
-      "location": "Vandenberg SFB, CA, USA",
-      "status": "Launch Successful",
-      "lat": 34.632,
-      "lon": -120.611,
-      "country": "United States of America",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/6aa7b90b-e5ed-45d8-a52e-04fbf399d178/?format=json"
     }
   ]
 }
